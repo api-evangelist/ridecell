@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://ridecell.com/security/
+url: https://ridecell.com/security/
+certifications:
+- AICPA SOC for Service Organizations
+- IBM Cloud for Financial Services Validated
+evidence:
+- source: https://ridecell.com/security/
+  keywords:
+  - aicpa soc for service organizations
+  - ibm cloud for financial services validated
+  - security
+notes: >-
+  Ridecell publishes its security posture and compliance badges on its /security/
+  page rather than a dedicated trust-center subdomain. SOC attestation (AICPA SOC
+  for Service Organizations) and IBM Cloud for Financial Services validation are
+  displayed as compliance badges. No ISO 27001, PCI DSS, HIPAA, FedRAMP, or public
+  bug-bounty program was found on the page.

@@ -1,8 +1,28 @@
 aid: ridecell
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ridecell.png
 name: Ridecell
-description: 'Ridecell is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Ridecell is an AI-powered asset intelligence and orchestration platform for
+  automotive leasing, fleet, and finance companies. Its five intelligence modules
+  (Client, Spend, Supplier, Asset, and Operational Intelligence) and the "Maya" AI
+  agent monitor fleets, flag invoice overcharges, track garage/supplier performance,
+  optimize vehicle remarketing and residual value, and resolve idle-vehicle
+  inefficiencies. The platform processes 12M+ events daily across 500K+ assets, 100+
+  connected systems, and 14+ countries. It was surfaced as a portfolio company of
+  Initialized Capital. Ridecell does not currently publish a public developer API,
+  OpenAPI specification, or SDK; this profile captures its public information,
+  security, and compliance surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/ridecell/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise Saas
+- Fleet Management
+- Mobility
+- Automotive
+- Artificial Intelligence
+- Asset Intelligence
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://ridecell.com
+  url: https://ridecell.com
+- type: Blog
+  url: https://ridecell.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/ridecell
+- type: PrivacyPolicy
+  url: https://ridecell.com/privacy/
+- type: TermsOfService
+  url: https://ridecell.com/terms/
+- type: Security
+  url: https://ridecell.com/security/
+- type: Compliance
+  url: https://ridecell.com/security/
+- type: TrustCenter
+  url: security/ridecell-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/ridecell-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ridecell-domain-security.yml
+- type: LLMsTxt
+  url: llms/ridecell-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
