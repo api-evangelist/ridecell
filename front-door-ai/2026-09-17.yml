@@ -1,0 +1,36 @@
+# Front Door AI Index — ridecell — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ridecell
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ridecell.com
+  final_host: ridecell.com
+  ownership: own
+  owner: ridecell
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 29
+  host_score: 29
+  density: 30.92
+  words: 938
+  tiers:
+    agentic: 6
+    core: 20
+    model: 3
+  ambiguous: 31
+  top_terms:
+    intelligence: 17
+    AI: 14
+    agent: 10
+    LLMs: 4
+    automation: 4
+    AI agent: 3
+    agentic: 2
+    gen ai: 2
+    Anthropic: 1
+    Gemini: 1
+    OpenAI: 1
+    chatbot: 1
